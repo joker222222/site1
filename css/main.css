@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Handjet', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    /*border: 1px solid black;*/
+}
+[class*="container"] {
+    max-width: 1676px;
+}
+body {
+    background-color: #808080;
+    font-size: 35px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./../img/Rectangle 2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    min-width: 1880px;
+    height: 899px;
+    margin-top: 30px;
+    text-align: center;
+    white-space: nowrap;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex: 0 0 300px;
+    padding-top: 35px;
+    position: relative;
+
+    /*right: 0px;*/
+    /*flex: 0 0 930px;*/
+    font-size: 80px;
+    font-weight: 700;
+
+    /*text-shadow:*/
+    /*        2px 0 black,*/
+    /*        0 -2px black,*/
+    /*        -2px 0 black,*/
+    /*        0 2px black;*/
+}
+.nav-link {
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 0;
+}
+
+.img {
+    position: relative;
+    right: 300px;
+    padding-top: 240px;
+    /*z-index: -1;*/
+}
+.Saly {
+    z-index: 100;
+    flex: 0 0 auto;
+    /*width: 673px;*/
+    /*height: 673px;*/
+    width: 100%;
+}
+
+#text {
+    position: relative;
+    white-space: initial;
+    margin-top: 300px;
+    left: 440px;
+    font-weight: 700;
+    font-size: 36px;
+    flex: 0 0 460px;
+    letter-spacing: 1.8px;
+}
+
+.Eclipse {
+    position: relative;
+    display: flex;
+    bottom: 1350px;
+    z-index: -1;
+}
+.My-Name {
+    color: #FFC7B1;
+    font-size: 96px;
+    font-weight: 700;
+}
+
